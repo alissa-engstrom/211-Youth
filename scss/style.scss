@@ -4,12 +4,9 @@
 
 /*imports*/
 @import 'bootstrap';
-//@import 'font-awesome';
 @import 'animate';
 @import 'pushy';
 @import 'slick';
-//@import 'lity';
-//@import 'fonts';
 
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700,700i,800');
@@ -251,41 +248,6 @@ h1{
 			margin: 0 0 20px 0;
 		}
 	}
-/*	@media screen and (max-height: 1038px) {
-		h1{
-			font-size: 120px;
-			line-height: 128px;
-			margin: 0 0 20px 0;
-		}
-	}
-	@media screen and (max-height: 800px) {
-		h1{
-			font-size: 100px;
-			line-height: 108px;
-			margin: 0 0 20px 0;
-		}
-	}
-	@media screen and (max-height: 768px) {
-		h1{
-			font-size: 80px;
-			line-height: 88px;
-			margin: 0 0 20px 0;
-		}
-	}
-	@media screen and (max-height: 668px) {
-		h1{
-			font-size: 55px;
-			line-height: 62px;
-			margin: 0 0 20px 0;
-		}
-	}
-	@media screen and (max-height: 568px) {
-		h1{
-			font-size: 45px;
-			line-height: 52px;
-			margin: 0 0 20px 0;
-		}
-	}*/
 	
 	
 h2{
@@ -584,13 +546,6 @@ p{
 			height: 54px;
 		}
 	}
-	/*@media screen and (max-width: 767px) {
-		.logo{
-			background-size: 63px 38px;
-			width: 63px;
-			height: 38px;
-		}
-	}*/
 
 /*top nav*/
 #top{
@@ -694,7 +649,6 @@ p{
 	}
 /*pushy*/
 .pushy{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f04e31+0,f58221+72,fcb23d+100 */
 	background: rgb(240,78,49); /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  rgba(240,78,49,1) 0%, rgba(245,130,33,1) 72%, rgba(252,178,61,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(-45deg,  rgba(240,78,49,1) 0%,rgba(245,130,33,1) 72%,rgba(252,178,61,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -869,28 +823,6 @@ p{
 	}
 }
 
-#enrichment .col-sm-6.col-md-3 .enrichment-item:hover {
-		/*.name{
-			
-			transform: translateY(-160%);
-			
-			 
-			
-			@media screen and (max-width: 1199px) {
-				transform: translateY(-130%);
-			}
-			@media screen and (max-width: 767px) {
-				transform: translateY(0);
-			}
-		}
-		.slide{
-			transform: translateY(-260px);
-			@media screen and (max-width: 767px) {
-				display: none;
-			}
-		}*/
-		
-}
 
 /*support*/
 #support{
@@ -1194,25 +1126,8 @@ p{
 		z-index: 5;
 	}
 }
-/*
-.parent-slider .card:hover {
-		.name{
-			transform: translateY(-160%);
-			
-			@media screen and (max-width: 1199px) {
-				transform: translateY(-130%);
-			}
-			@media screen and (max-width: 767px) {
-				transform: translateY(0);
-			}
-		}
-		.slide{
-			transform: translateY(-260px);
-			@media screen and (max-width: 767px) {
-				display: none;
-			}
-		}	
-}*/
+
+
 .slider-nav{
 	text-align: right;
 	margin: 60px 120px 0 0;
